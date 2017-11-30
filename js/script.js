@@ -27,4 +27,18 @@
 
 
 // DOCUMENT READY FUNCTION
+$(function() {
+        
+$("#submit").click(function() {
+      var  choices = ["rock", "paper", "scissors"];
+    //  console.log(a[Math.floor(Math.random()*3)]);
+    $("#comp").append(choices[Math.floor(Math.random()*3)]);
+
+});
+
+});
+
+
+
+
 
